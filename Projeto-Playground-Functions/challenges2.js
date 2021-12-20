@@ -3,7 +3,7 @@ function techList(array, name) {
   // seu código aqui
 let resultado = null;
 let result = [];
-let listaTech = ["CSS", "HTML", "JavaScript", "Jest", "React"]
+let listaTech = ["CSS", "HTML", "JavaScript", "Jest", "React"];
 
   if(array == 0){
     result = 'Vazio!';
@@ -68,17 +68,17 @@ let restoC = null;
     restoB = (lineA - lineC);
   }
 
-  if (lineA < (lineB + lineC) && lineA > Math.abs(restoA)){
+  if (lineA < (lineB + lineC) && lineA > restoA){
     resultado = true;
   }else {
     resultado = false;
   }
-  if (lineB < (lineA + lineC) && lineB > Math.abs(restoB)){
+  if (lineB < (lineA + lineC) && lineB > restoB){
     resultado = true;
   }else {
     resultado = false;
   }
-  if (lineC < (lineB + lineA) && lineC > Math.abs(restoC)){
+  if (lineC < (lineB + lineA) && lineC > restoC){
     resultado = true;
   }else {
     resultado = false;
