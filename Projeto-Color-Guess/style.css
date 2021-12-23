@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+.ball {
+  display: inline-block;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+.placar {
+  margin-top: 25px;
+}
