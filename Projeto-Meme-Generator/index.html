@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Projeto Meme Generator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Meme Generator</h1>
+    </header>
+    <main>
+      <section id="input">
+        <p>Escolha sua imagem: <input type="file" id="meme-insert" /></p>
+        <p>Texto: <input type="text" id="text-input" maxlength="60" /></p>
+      </section>
+      <section id="meme-image-container">
+        <p id="meme-text"></p>
+        <img src="" alt="Imagem do novo meme" id="meme-image" />
+      </section>
+      <br />
+      <section>
+        <h3>Escolha sua borda:</h3>
+        <button id="fire">Fire</button>
+        <button id="water">Water</button>
+        <button id="earth">Earth</button>
+        <br />
+        <h3>Exemplos de memes</h3>
+      </section>
+      <section id="memes">
+        <div id="meme-1">
+          <img src="./imgs/meme1.png" alt="exemplo de meme 1" />
+        </div>
+        <div id="meme-2">
+          <img src="./imgs/meme2.png" alt="exemplo de meme 2" />
+        </div>
+        <div id="meme-3">
+          <img src="./imgs/meme3.png" alt="exemplo de meme 3" />
+        </div>
+        <div id="meme-4">
+          <img src="./imgs/meme4.png" alt="exemplo de meme 4" />
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
